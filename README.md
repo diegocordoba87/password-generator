@@ -18,9 +18,9 @@ The present application was made to help users create password of different leng
 
 [Deployed Portafolio Site](https://diegocordoba87.github.io/password-generator/)
 
-![Web App Upper ](assets/images/password_generator_main.png)
-![Web App Middle](assets/images/password_generator_prompt.png)
-![Web App Lower ](assets/images/password_generated.png)
+![Password Generator Main Screen ](password-generator/images/password_generator_main.png) 
+![Password Generator First Prompt](assets/images/password_generator_prompt.png)
+![Password Generator Result](assets/images/password_generated.png)
 
 ## Credits
 
