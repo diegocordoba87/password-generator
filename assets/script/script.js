@@ -88,7 +88,7 @@ function generatePassword() {
     var password = "Password was not generated!";
     return password;
   } else {
-    while (passLength < 8 || passLength > 128) {
+    while ((passLength < 8 || passLength > 128) || (isNaN(passLength))) {
       passLength = prompt("Invalid password length. Please try again");
     }
 
