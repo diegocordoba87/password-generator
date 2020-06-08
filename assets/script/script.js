@@ -102,7 +102,7 @@ function generatePassword() {
       'Click "OK" if you wish to include UPPERCASE characters'
     );
     var numbers = confirm(
-      'Click "OK" if you wish to include NUMBERS characters'
+      'Click "OK" if you wish to include NUMBERS'
     );
 
     console.log(passLength);
@@ -126,6 +126,11 @@ function generatePassword() {
         var indexNumber = Math.floor(Math.random() * numlist.length);
         password = password + numlist[indexNumber];
       }
+
+      if (!(specialChars || lowerChars || upperChars ||numbers)){
+        return ('You must choose one option')
+      }
+
     }
     return password;
   }
